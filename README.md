@@ -2,9 +2,9 @@
 
 | Branch | Travis | Report.ci |
 |--------|--------|-----------|
-| last build | [![Build Status](https://travis-ci.com/report-ci/junit-example.svg)](https://travis-ci.com/report-ci/junit-example) | [![Build Status](https://api.report.ci/status/report-ci/junit-example/badge.svg)](https://api.report.ci/status/report-ci/junit-example) |
-| develop | [![Build Status](https://travis-ci.com/report-ci/junit-example.svg?branch=develop)](https://travis-ci.com/report-ci/junit-example) | [![Build Status](https://api.report.ci/status/report-ci/junit-example/badge.svg?branch=develop)](https://api.report.ci/status/report-ci/junit-example?branch=develop) |
-| master  | [![Build Status](https://travis-ci.com/report-ci/junit-example.svg?branch=master)](https://travis-ci.com/report-ci/junit-example)  | [![Build Status](https://api.report.ci/status/report-ci/junit-example/badge.svg?branch=master)](https://api.report.ci/status/report-ci/junit-example?branch=master) |
+| last build | [![Build Status](https://travis-ci.com/report-ci/junit-example.svg)](https://travis-ci.com/report-ci/junit-example) | [![Build Status](https://api.report.ci/status/report-ci/junit-example/badge.svg?level=cases)](https://api.report.ci/status/report-ci/junit-example) |
+| develop | [![Build Status](https://travis-ci.com/report-ci/junit-example.svg?branch=develop)](https://travis-ci.com/report-ci/junit-example) | [![Build Status](https://api.report.ci/status/report-ci/junit-example/badge.svg?branch=develop&level=cases)](https://api.report.ci/status/report-ci/junit-example?branch=develop) |
+| master  | [![Build Status](https://travis-ci.com/report-ci/junit-example.svg?branch=master)](https://travis-ci.com/report-ci/junit-example)  | [![Build Status](https://api.report.ci/status/report-ci/junit-example/badge.svg?branch=master&level=cases)](https://api.report.ci/status/report-ci/junit-example?branch=master) |
 
 This repository demonstrates how to use report.ci with JUnit. It can be done by adding one command to travis-ci as shown below.
 
