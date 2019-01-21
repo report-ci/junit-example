@@ -2,7 +2,6 @@
 
 | Branch | Travis | Report.ci |
 |--------|--------|-----------|
-| last build | [![Build Status](https://travis-ci.com/report-ci/junit-example.svg)](https://travis-ci.com/report-ci/junit-example) | [![Build Status](https://api.report.ci/status/report-ci/junit-example/badge.svg?level=cases)](https://api.report.ci/status/report-ci/junit-example) |
 | develop | [![Build Status](https://travis-ci.com/report-ci/junit-example.svg?branch=develop)](https://travis-ci.com/report-ci/junit-example) | [![Build Status](https://api.report.ci/status/report-ci/junit-example/badge.svg?branch=develop&level=cases)](https://api.report.ci/status/report-ci/junit-example?branch=develop) |
 | master  | [![Build Status](https://travis-ci.com/report-ci/junit-example.svg?branch=master)](https://travis-ci.com/report-ci/junit-example)  | [![Build Status](https://api.report.ci/status/report-ci/junit-example/badge.svg?branch=master&level=cases)](https://api.report.ci/status/report-ci/junit-example?branch=master) |
 
@@ -16,7 +15,7 @@ after_script:
 There's a example PR [here](https://github.com/report-ci/junit-example/pull/1) and use badges in the markdown file like this:
 
 ```md
-Last build
+Last build (the last uploaded one, my be different than from the CI)
 
 [![Build Status](https://api.report.ci/status/report-ci/junit-example/badge.svg)](https://api.report.ci/status/report-ci/junit-example)
 
