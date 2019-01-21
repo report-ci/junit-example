@@ -11,5 +11,5 @@ public class OtherTest {
 class YetAnotherTest {
 
     @Test
-    public void test() {assertEquals(1,1);}
+    public void test() {assertEquals(3,3);}
 }

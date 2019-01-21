@@ -1,0 +1,7 @@
+language: java
+sudo: false
+
+script: "mvn test"
+
+after_script:
+  - python <(curl -s https://raw.githubusercontent.com/report-ci/scripts/master/upload.py)
