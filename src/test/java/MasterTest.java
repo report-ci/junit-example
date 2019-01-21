@@ -14,10 +14,15 @@ public class MasterTest
 
     }
 
+    void nestedTest()
+    {
+        fail();
+    }
+
     @Test
     public void test2()
     {
-        fail();
+        nestedTest();
     }
 
     @Test
