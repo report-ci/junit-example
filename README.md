@@ -1,11 +1,12 @@
-# JUnit example
+# junit example
 
-| Branch | Travis | Report.ci |
+
+| Branch | Travis | report.ci |
 |--------|--------|-----------|
-| develop | [![Build Status](https://travis-ci.com/report-ci/junit-example.svg?branch=develop)](https://travis-ci.com/report-ci/junit-example) | [![Build Status](https://api.report.ci/status/report-ci/junit-example/badge.svg?branch=develop&level=cases)](https://api.report.ci/status/report-ci/junit-example?branch=develop) |
-| master  | [![Build Status](https://travis-ci.com/report-ci/junit-example.svg?branch=master)](https://travis-ci.com/report-ci/junit-example)  | [![Build Status](https://api.report.ci/status/report-ci/junit-example/badge.svg?branch=master&level=cases)](https://api.report.ci/status/report-ci/junit-example?branch=master) |
+| develop | [![Build Status](https://travis-ci.com/report-ci/junit-example.svg?branch=develop)](https://travis-ci.com/report-ci/junit-example) | [![Report Status](https://api.report.ci/status/report-ci/junit-example/badge.svg?branch=develop&level=cases&build=travis-ci)](https://api.report.ci/status/report-ci/junit-example?branch=develop&build=travis-ci) |
+| master | [![Build Status](https://travis-ci.com/report-ci/junit-example.svg?branch=master)](https://travis-ci.com/report-ci/junit-example) | [![Report Status](https://api.report.ci/status/report-ci/junit-example/badge.svg?branch=master&level=cases&build=travis-ci)](https://api.report.ci/status/report-ci/junit-example?branch=master&build=travis-ci) |
 
-This repository demonstrates how to use report.ci with JUnit. It can be done by adding one command to travis-ci as shown below.
+This repository demonstrates how to use report.ci with Boost.Test. It can be done by adding one command to travis-ci as shown below.
 
 ```yml
 after_script:
