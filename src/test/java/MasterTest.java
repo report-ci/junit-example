@@ -16,6 +16,7 @@ public class MasterTest
 
     void nestedTest()
     {
+        foobar();
         //fail();
     }
 
