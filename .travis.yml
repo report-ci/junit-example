@@ -1,6 +1,6 @@
 language: java
 sudo: false
-install: false
+install: true
 
 before_script: "curl -s https://raw.githubusercontent.com/report-ci/scripts/master/annotate.py > annotate.py"
 
