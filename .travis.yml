@@ -1,10 +1,14 @@
 language: java
 sudo: false
-install: false
+install: true
 
 before_script: "curl -s https://raw.githubusercontent.com/report-ci/scripts/master/annotate.py > annotate.py"
 
-script: "mvn test | python annotate.py --tool java --tee"
+script: "mvn test --log-file maven.log"
+
+after_failure:
+  - curl -s https://raw.githubusercontent.com/report-ci/scripts/master/annotate.py | python - --tool java --input maven.log
+
 
 after_script:
   - python <(curl -s https://raw.githubusercontent.com/report-ci/scripts/master/upload.py)
