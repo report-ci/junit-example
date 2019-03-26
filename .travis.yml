@@ -1,7 +1,9 @@
 language: java
 sudo: false
 
-script: "mvn test"
+before_script: "curl -s https://raw.githubusercontent.com/report-ci/scripts/master/annotate.py > annotate.py"
+
+script: "mvn test | python annotate.py --tool java --tee"
 
 after_script:
   - python <(curl -s https://raw.githubusercontent.com/report-ci/scripts/master/upload.py)
