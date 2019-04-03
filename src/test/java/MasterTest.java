@@ -8,7 +8,7 @@ public class MasterTest
     public void test1()
     {
         assertEquals(1, 1, "Dummy test one, \n see if multiline works");
-        assertEquals(1, 1, "Dummy test two");
+        assertEquals(1, 2, "Dummy test two");
         assertNotEquals(3, 2);
         assertTrue(true, "Dummy test three");
 
@@ -16,7 +16,7 @@ public class MasterTest
 
     void nestedTest()
     {
-        //fail();
+        fail();
     }
 
     @Test
@@ -28,7 +28,7 @@ public class MasterTest
     @Test
     public void test3()
     {
-        assertTrue(true, "Some description");
+        assertTrue(false, "Some description");
     }
 
 }
